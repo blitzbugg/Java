@@ -58,6 +58,17 @@ javac ProgramName.java
 ```bash
 java ProgramName
 ```
+## OOPS Programs
+
+1. Navigate to the **OOPSPrograms** folder.
+2. Compile the Java files using:
+```
+javac OOPProgramName.java
+```
+3. Run the program using:
+```
+java OOPProgramName
+```
 
 ## Applet Programs
 
@@ -67,6 +78,9 @@ java ProgramName
 javac AppletName.java
 ```
 3. Run the applet using an applet viewer or a browser that supports applets:
+```
+appletviewer AppletName.java
+```
 
 ## ODBC Programs
 
