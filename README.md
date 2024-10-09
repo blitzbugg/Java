@@ -5,10 +5,11 @@ This repository contains a collection of Java programs aimed at helping me and m
 ## Repository Structure
 
 ```bash  
-📦 java-practical-exam-prep  
-├── 📂 SamplePrograms  
-├── 📂 AppletPrograms  
-├── 📂 ODBCPrograms  
+📦 java-practical-exam-prep
+├── 📂 SamplePrograms
+├── 📂 OOPSPrograms
+├── 📂 AppletPrograms
+├── 📂 ODBCPrograms
 └── README.md
 ```
 
@@ -20,14 +21,22 @@ The SamplePrograms folder contains a variety of Java programs that cover core co
 - File Handling
 - Object-Oriented Programming (OOP)
 
-## 2. Applet Programs
+## 2. OOPS Programs
+The OOPSPrograms folder contains Object-Oriented Programming (OOP) concepts such as:
+
+- Classes and Objects
+- Inheritance, Polymorphism, Encapsulation, and Abstraction
+- Constructors and Method Overloading
+- Interfaces and Abstract Classes
+
+## 3. Applet Programs
 The AppletPrograms folder contains Java Applet programs that showcase:
 
 - Drawing shapes
 - Handling events in applets
 - Animations in applets
 
-## 3. ODBC Programs
+## 4. ODBC Programs
 
 The ODBCPrograms folder contains programs demonstrating database connectivity using Java ODBC. These programs include:
 
