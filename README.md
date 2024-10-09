@@ -1,6 +1,6 @@
 # Java Practical Exam Preparation
 
-This repository contains a collection of Java programs aimed at helping me prepare for my upcoming practical exam. The repository is divided into three sections: Sample Programs, Applet Programs, and Java ODBC Programs.
+This repository contains a collection of Java programs aimed at helping me and my freinds to prepare for our upcoming practical exam. The repository is divided into three sections: Sample Programs, Applet Programs, and Java ODBC Programs.
 
 ## Repository Structure
 
