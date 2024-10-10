@@ -58,7 +58,7 @@ javac ProgramName.java
 ```bash
 java ProgramName
 ```
-## OOPS Programs
+### OOPS Programs
 
 1. Navigate to the **OOPSPrograms** folder.
 2. Compile the Java files using:
@@ -70,7 +70,7 @@ javac OOPProgramName.java
 java OOPProgramName
 ```
 
-## Applet Programs
+### Applet Programs
 
 1. Navigate to the **AppletPrograms** folder.
 2. Compile the Applet files using:
@@ -82,7 +82,7 @@ javac AppletName.java
 appletviewer AppletName.java
 ```
 
-## ODBC Programs
+### ODBC Programs
 
 1. Ensure you have the required JDBC driver set up for ODBC connectivity.
 2. Navigate to the **ODBCPrograms** folder.
