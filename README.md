@@ -46,6 +46,14 @@ The ODBCPrograms folder contains programs demonstrating database connectivity us
 
 ## How to Run the Programs
 
+<mark>Important! whenever you open the CMD you have to ensure that the path has set</mark>
+1. Open the Command Prompt or Terminal.
+2. Navigate to the directory where the Java program is located.
+
+```bash
+set path=c:\jdk1.3\bin
+```
+
 ### Sample Programs
 
 1. Navigate to the **SamplePrograms** folder.
