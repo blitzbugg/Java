@@ -11,7 +11,8 @@ public class ArithmeticOperations {
     }
 
     public static void main(String[] args) {
-        try (Scanner scanner = new Scanner(System.in)) {
+        try {
+            Scanner scanner = new Scanner(System.in);
             ArithmeticOperations operations = new ArithmeticOperations();
 
             System.out.print("Enter two integers: ");
@@ -25,7 +26,7 @@ public class ArithmeticOperations {
             float num4 = scanner.nextFloat();
             int result2 = operations.calculate(num3, num4);
             System.out.println("Result (difference as integer): " + result2);
-
+            scanner.close();
         } catch (Exception e) {
             System.out.println("An error occurred: " + e.getMessage());
         }
