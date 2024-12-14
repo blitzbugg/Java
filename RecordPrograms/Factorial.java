@@ -1,11 +1,12 @@
 // 3.	Write a Java Program to print factorial of a given number. If the number is negative then throw a user defined exception.
-import java.util.Scanner;
+import java.io.DataInputStream;
 public class Factorial {
     
     public static void main(String[] args) {
-        try(Scanner input = new Scanner(System.in);) {
+        try(DataInputStream input = new DataInputStream(System.in)) {
+            
             System.out.println("Enter a number: ");
-            int number = input.nextInt();
+            int number = input.readInt();
             if (number < 0) {
                 throw new ArithmeticException("The number is negative");
             }else{

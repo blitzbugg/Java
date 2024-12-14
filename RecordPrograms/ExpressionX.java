@@ -1,11 +1,12 @@
-import java.util.Scanner;
+// 4.	Write a Java program to evaluate the expression x/(x-5) where x>5, if the value of x is less than or equal to 5 throw a user defined exception.
+import java.io.DataInputStream;
 
 public class ExpressionX {
     public static void main(String[] args) {
-      try(Scanner scanner = new Scanner(System.in);) {
+      try(DataInputStream input = new DataInputStream(System.in)) {
         
         System.out.println("Enter a number: ");
-        int x = scanner.nextInt();
+        int x = input.readInt();
         int exp;
         if (x <= 5) {
             throw new ArithmeticException("You are not allowed to do that");
@@ -14,7 +15,7 @@ public class ExpressionX {
             System.out.println("The Final expression is: "+ exp);
         }
         
-      } catch (ArithmeticException e) {
+      } catch (Exception e) {
         System.out.println(e.getMessage());
       }
         
